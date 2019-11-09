@@ -52,7 +52,7 @@
             <li v-if="generalizeData.projectCost">
               <a href="javascript:;">
                 <span class="summarizeName">工程造价:</span>
-                <span class="summarizeContent">{{generalizeData.projectCost}}万</span>
+                <span class="summarizeContent">{{generalizeData.projectCost}}亿元</span>
               </a>
             </li>
             <li v-if="generalizeData.constructionName">
@@ -479,7 +479,7 @@ export default {
               normal: {
                 //判断
                 color: function(params) {
-                  if (params.value >= 75) {
+                  if (params.value >= 200) {
                     return "#fb497c";
                   } else {
                     return "#009b41";

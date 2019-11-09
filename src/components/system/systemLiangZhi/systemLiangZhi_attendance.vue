@@ -134,7 +134,7 @@
                         </el-table-column>
                         <el-table-column
                         prop="time"
-                        label="打开卡时间">
+                        label="开卡时间">
                         </el-table-column>
                         <el-table-column
                         label="查看考勤照片"
