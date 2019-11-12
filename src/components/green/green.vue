@@ -19,7 +19,7 @@
             <img v-else-if="item[0].wea.includes('雷')" src="../../../static/images/g_lei.png">
             <img v-else src="../../../static/images/g_wan.png">
             <div class="name">{{item[0].wea}}</div>
-            <div class="wendu">{{item[0].tem}}~{{item[0].tem2}}</div>
+            <div class="wendu">{{item[0].tem2}}~{{item[0].tem1}}</div>
             <div class="fengx">{{item[0].win[0]}}</div>
           </div>
           <div class="two">
@@ -33,7 +33,7 @@
               <img v-else-if="item.wea.includes('雷')" src="../../../static/images/g_lei.png">
               <img v-else src="../../../static/images/g_wan.png">
               <div class="name">{{item.wea}}</div>
-              <div class="wendu">{{item.tem1}}~{{item.tem2}}</div>
+              <div class="wendu">{{item.tem2}}~{{item.tem1}}</div>
               <div class="fengx noml">{{item.win[0]}}</div>
             </div>
           </div>
